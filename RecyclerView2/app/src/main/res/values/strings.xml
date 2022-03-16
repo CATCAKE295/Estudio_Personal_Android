@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerView2</string>
+
+    <string name="Super1">Spider Man</string>
+    <string name="Super2">Iron Man</string>
+    <string name="Super3">The Batman</string>
+    <string name="Super4">Rorschach</string>
+    <string name="Super5">Overseer</string>
+</resources>

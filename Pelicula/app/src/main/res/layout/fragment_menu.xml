@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MenuFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+<Button
+    android:id="@+id/btn_Clasificacion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/btn_Genero"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="20dp"
+    android:text="Clasificacion"/>
+
+    <Button
+        android:id="@+id/btn_Genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/btn_Idioma"
+        android:text="Genero"/>
+
+
+
+    <Button
+        android:id="@+id/btn_Idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/btn_Nacionalidad"
+        android:text="Idioma"/>
+
+
+
+    <Button
+        android:id="@+id/btn_Nacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/btn_Pelicula"
+        android:text="Nacionalidad"/>
+
+
+    <Button
+        android:id="@+id/btn_Pelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="350dp"
+        android:text="Pelicula"/>
+
+
+
+</RelativeLayout>
+
+</FrameLayout>

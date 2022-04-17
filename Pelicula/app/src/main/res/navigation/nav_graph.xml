@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="edu.uca.ni.pelicula.views.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/irAClasificacion"
+            app:destination="@id/clasificacionFragment" />
+        <action
+            android:id="@+id/irAGenero"
+            app:destination="@id/generoFragment" />
+        <action
+            android:id="@+id/irAIdioma"
+            app:destination="@id/idiomaFragment" />
+        <action
+            android:id="@+id/irANacionalidad"
+            app:destination="@id/nacionalidadFragment" />
+        <action
+            android:id="@+id/irAPelicula"
+            app:destination="@id/peliculaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clasificacionFragment"
+        android:name="edu.uca.ni.pelicula.views.ClasificacionFragment"
+        android:label="fragment_clasificacion"
+        tools:layout="@layout/fragment_clasificacion" />
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="edu.uca.ni.pelicula.views.GeneroFragment"
+        android:label="fragment_genero"
+        tools:layout="@layout/fragment_genero" />
+    <fragment
+        android:id="@+id/idiomaFragment"
+        android:name="edu.uca.ni.pelicula.views.IdiomaFragment"
+        android:label="fragment_idioma"
+        tools:layout="@layout/fragment_idioma" />
+    <fragment
+        android:id="@+id/nacionalidadFragment"
+        android:name="edu.uca.ni.pelicula.views.NacionalidadFragment"
+        android:label="fragment_nacionalidad"
+        tools:layout="@layout/fragment_nacionalidad" />
+    <fragment
+        android:id="@+id/peliculaFragment"
+        android:name="edu.uca.ni.pelicula.views.PeliculaFragment"
+        android:label="fragment_pelicula"
+        tools:layout="@layout/fragment_pelicula" />
+</navigation>

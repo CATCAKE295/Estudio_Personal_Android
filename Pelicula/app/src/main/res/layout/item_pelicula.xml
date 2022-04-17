@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="SpiderMan"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/txt_tmetraje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="accion"/>
+
+
+        <TextView
+            android:id="@+id/txt_nacionalidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Estado Unidense"/>
+
+
+        <TextView
+        android:id="@+id/txt_clasificaccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="PG"/>
+
+
+        <TextView
+            android:id="@+id/txt_duracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="2 horas "/>
+
+
+
+
+        <TextView
+            android:id="@+id/txt_Sinopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Superheroe de marvel "/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
